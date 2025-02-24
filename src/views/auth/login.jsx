@@ -19,7 +19,7 @@ function Login() {
                     
                 } else {
                     Swal.fire({
-                        icon: 'error',
+                        icon: 'error', 
                         title: 'User not found',
                         text: 'Incorrect username or password.',
                     });
